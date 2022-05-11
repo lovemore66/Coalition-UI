@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.banner {
+  height: 90vh;
+  background-image: url("images/banner.jpg");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+nav ul li {
+  display: inline;
+  font-style: italic;
+  margin-left: 30px;
+}
+
+nav ul li a {
+  color: #ffff;
+  line-height: 25px;
+  text-underline-offset: 3px;
+  text-decoration: underline 1.5px;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-size: 11px;
+}
+.middle_menu {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 10px 0px 10px;
+}
+.middle_menu nav ul li a {
+  color: #414f6b;
+  line-height: 25px;
+  text-underline-offset: 3px;
+  text-decoration: underline 1.5px;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-size: 11px;
+}
+.history_climb {
+  height: 700px;
+  background-image: url("images/peak.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.climb p {
+  margin-left: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 100px;
+}
+.overay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(65, 79, 107, 0.1);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.article {
+  display: flex;
+  max-width: 800px;
+  margin: -30px auto 40px;
+  height: 180px;
+  align-items: flex-end;
+}
+.describ {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: -30px;
+}
+.article h1 {
+  font-size: 170px;
+  font-weight: 700;
+  height: 100%;
+  font-family: "Oswald", sans-serif;
+  color: #6d7c98;
+}
+.history {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  max-height: 100%;
+  justify-content: left;
+  margin-bottom: 10px;
+  margin-left: -30px;
+}
+
+.history h3 {
+  color: #414f6b;
+  font-weight: bold;
+}
+
+.history_climb p {
+  max-width: 800px;
+  margin: 0px auto;
+  font-family: "Lato", sans-serif;
+  font-weight: 100px;
+}
+
+.first p {
+  margin-top: 30px;
+}
+.second{
+  background-color: rgba(65, 79, 107, 0.9);
+}
+
+.slide {
+  background-color: rgba(65, 79, 107, 0.8);
+}
+
+/* Mountains */
+.buttons {
+  max-width: 800px;
+  margin: 30 auto;
+  display: flex;
+  cursor: pointer;
+}
+.btns {
+  background-color: #414f6b;
+}
+.allbtn {
+  padding: 15px;
+  color: #b0b4be;
+}
+.allbtn p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
+.allbtn.active {
+  background-color: #b0b4be;
+  color: #414f6b;
+}
+
+.allbtn.active p {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.mountains {
+  height: 650px;
+  background-image: url("images/birds.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.first_mountain {
+  height: 500px;
+}
+.first_mountain p,
+.second_mountain p {
+  max-width: 800px;
+  margin: 30 auto;
+}
+
+.second_mountain {
+  height: 500px;
+}
+
+.hidden {
+  display: none;
+}
+footer {
+  background-color: #414f6b;
+}
+.footer_menu {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 10px 0px 10px;
+}
+.footer_menu a {
+  color: #63769d;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 200px;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.footer_menu img,
+.middle_menu img,
+.heading img {
+  height: 30px;
+}
+
+.schedule {
+  max-width: 800px;
+  margin: 80px auto;
+}
+
+.dates {
+  background-color: rgba(241, 243, 246, 0.6);
+  max-width: 350px;
+  padding: 30px;
+}
+.dates span {
+  padding-right: 40px;
+  width: 200px !important;
+}
+.dates p {
+  line-height: 0.5px;
+  font-family: "Lato", sans-serif;
+  font-weight: 100px;
+}
+.dates h2 {
+  font-weight: 700;
+  color: #414f6b;
+  font-family: "Oswald", sans-serif;
+}
+.buttons p {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.slider-wrap {
+ position: relative;
+ height: 180px;
+ overflow: hidden;
+ max-width: 800px;
+ margin: 0 auto;
+}
+.arrows{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+  padding: 15px 0px 10px;
+  margin-left: 16px;
+}
+.arrows i{
+  cursor: pointer;
+}
+.arrows i:hover{
+  color: rgba(241, 243, 246, 0.6);
+}
+
+.slider-main {
+  position: absolute;
+  width: 199%;
+}
+.slide {
+  width: 180px;
+  height: 130px;
+  background-color: #414f6b;
+  margin: 10px;
+  display: inline-block;
+}
+.slide img{
+width:100%;
+height: 130px;
+}
+.dot  p{
+  padding: 10px;
+  background-color: #b0b4be;
+  border-radius: 50%;
+  height: 30px;
+  height: 30px;
+  margin: 10px;
+}
+.dots{
+  display: flex;
+}
+
+.active_0{
+  border: 2px solid red;
+}
